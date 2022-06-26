@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistrarse</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form autocomplete="off" action="index.html" >
+        <fieldset>
+            <legend>Registrate</legend>
+
+            <div class="contenedorInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="7" r="4" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                  </svg>
+                  <input required="true" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+            </div>
+            
+            <div class="contenedorInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="3 7 12 13 21 7" />
+                  </svg>
+                <input required="true" type="email" name="email" id="email" placeholder="example@correo.com"/>
+            </div>
+
+            <div class="contenedorInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  </svg>
+                <input required="true" type="number" name="telefono" id="telefono" placeholder="Teléfono/Celular"/>
+            </div>
+
+            <div class="contenedorInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="5" y="11" width="14" height="10" rx="2" />
+                    <circle cx="12" cy="16" r="1" />
+                    <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+                  </svg>
+                <input required="true" type="password" neme="pass" id="pass" placeholder="Contraseña"/>
+            </div>
+
+            <div class="contenedorInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-repeat" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3" />
+                    <path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3" />
+                  </svg>
+                <input required="true" type="password" neme="repPass" id="repPass" placeholder="Repetir Contraseña"/>
+            </div>
+
+            <input class="boton" type="submit" id="ingresar" value="Registrate">
+            <div>
+                <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                <p>¿Ya tienes una cuenta? <a href="index.html">Iniciar Seción</a></p>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
